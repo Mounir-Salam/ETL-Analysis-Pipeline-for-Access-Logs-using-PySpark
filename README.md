@@ -25,8 +25,8 @@ python -m scripts.process_logs
 
 - `--path`: Path to the log file (default: `data/access_logs/sample.log`).
 - `--output_path`: Path to save the cleaned log data (default: `output/`).
-- `--log_format`: Log format to use for parsing the logs (default: `combined`). Current available format options:
-    - `combined`
+- `--log_format`: Log format to use for parsing the logs. Current available format options:
+    - `combined` (default)
     - `common`
 - `--no_csv_output`: Disable CSV output (default: enabled).
 - `--parquet_output`: Enable Parquet output (default: disabled).

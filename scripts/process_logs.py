@@ -1,10 +1,7 @@
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import regexp_extract, col, to_timestamp, to_date, date_trunc
-from pyspark.sql.types import TimestampType
+from pyspark.sql.functions import regexp_extract, col, to_timestamp, to_date
 from tools.log_Formats import logFormats
 from tools.spark_utils import create_spark_session
 import argparse
-import pandas as pd
 
 import os
 import sys
